@@ -17,7 +17,7 @@ This is a REST API using Javascript Technologies and MySQL to consume a XML and 
 ### Installation and execution
 - Clone or Fork the project.
 
-First go to ```.env``` file and Replace ``YOUR_IP``` with your computer’s private IP address. You may run into connectivity issues if you use ```127.0.0.1``` or localhost. The port numbers are customized to avoid conflicts, copy and paste them instead of writing them
+First go to ```.env``` file and Replace ```YOUR_IP``` with your computer’s private IP address. You may run into connectivity issues if you use ```127.0.0.1``` or localhost. The port numbers are customized to avoid conflicts, copy and paste them instead of writing them
 
 Run ```docker-compose``` command.
 
