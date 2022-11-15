@@ -17,6 +17,8 @@ This is a REST API using Javascript Technologies and MySQL to consume a XML and 
 ### Installation and execution
 - Clone or Fork the project.
 
+First go to ```.env``` file and change ```YOUR_API``` with your API from ```ANALYTIC_MYSQL_NAME```
+
 Run ```docker-compose``` command.
 
 * Building the containers: ```docker-compose build```
