@@ -38,11 +38,11 @@ database: analytics)
 - RabbitMQ (host: YOUR_IP, port: 5627, user: root, password: EtLTest2022)
 - RabbitMQ Management (host: http://localhost:18083/, user: root, password:
 EtLTest2022)
-Note: Replace YOUR_IP with your computer’s private IP address. You may run
+
+**Note**: Replace YOUR_IP with your computer’s private IP address. You may run
 into connectivity issues if you use 127.0.0.1 or localhost. The port numbers are
 customized to avoid conflicts, copy and paste them instead of writing them
 
-Check the **.env.example** file to change these or any other params.
 #### Note
 
 The NodeJS application will probably throw an exception the first time, because it will try to connect to the MySQL service that is still initializing for the first time; in this case wait for MySQL to fully initialize first and then run the command `docker-compose restart $NAME_SERVICE` in another terminal to restart the crashed service.
