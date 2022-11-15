@@ -17,7 +17,7 @@ This is a REST API using Javascript Technologies and MySQL to consume a XML and 
 ### Installation and execution
 - Clone or Fork the project.
 
-First go to ```.env``` file and change ```YOUR_API``` with your API from ```ANALYTIC_MYSQL_NAME```
+First go to ```.env``` file and Replace ``YOUR_IP``` with your computer’s private IP address. You may run into connectivity issues if you use ```127.0.0.1``` or localhost. The port numbers are customized to avoid conflicts, copy and paste them instead of writing them
 
 Run ```docker-compose``` command.
 
@@ -42,8 +42,6 @@ EtLTest2022)
 #### Note
 
 If the NodeJS application throw an exception because is trying to connect to the MySQL service that is still initializing for the first time; in this case wait for MySQL to fully initialize first and then run the command `docker-compose restart $NAME_SERVICE` in another terminal to restart the crashed service.
-
-Replace YOUR_IP with your computer’s private IP address. You may run into connectivity issues if you use 127.0.0.1 or localhost. The port numbers are customized to avoid conflicts, copy and paste them instead of writing them
 
 ### Testing ⚙️
 
